@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c52136d6-3e3a-45aa-8b6c-bf1fb6338794" name="stk-sport">
+        <fileTransfer rootFolder="/home/c84317/stk-sport.vm-9aa0b6b3.na4u.ru/www" accessType="SFTP" host="h47.netangels.ru" port="22" sshConfigId="7aea393e-487d-40b2-9526-37a853babf0f" sshConfig="c84317@h47.netangels.ru:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
