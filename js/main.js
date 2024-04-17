@@ -125,7 +125,7 @@ document.addEventListener('click', (e) => {
         const modal = btn.closest('[data-modal-wrapper]');
 
         modal.classList.remove('active');
-        document.querySelector('body').style['overflow'] = '';
+        document.querySelector('html').style['overflow'] = '';
     }
 });
 
@@ -137,7 +137,7 @@ document.addEventListener('click', (e) => {
         const modal = document.querySelector(`[data-modal-wrapper-news="${attributeVaLue}"]`);
 
         modal.classList.add('active');
-        document.querySelector('body').style['overflow'] = 'hidden';
+        document.querySelector('html').style['overflow'] = 'hidden';
     }
 });
 
